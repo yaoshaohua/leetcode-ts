@@ -1,6 +1,7 @@
 /*
  * @Description: 
 
+  5. 最长回文子串
   给你一个字符串 s，找到 s 中最长的回文子串。
   输入：s = "babad"
   输出："bab"
@@ -9,7 +10,7 @@
  * @Author: ysh
  * @Date: 2022-07-05 05:47:59
  * @LastEditors: ysh
- * @LastEditTime: 2022-07-05 07:52:03
+ * @LastEditTime: 2022-07-07 15:08:38
  */
 
 function longestPalindrome(s: string): string {

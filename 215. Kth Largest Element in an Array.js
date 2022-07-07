@@ -1,6 +1,7 @@
 /*
  * @Description: 
 
+  215. 数组中的第K个最大元素
   给定整数数组 nums 和整数 k，请返回数组中第 k 个最大的元素。
   请注意，你需要找的是数组排序后的第 k 个最大的元素，而不是第 k 个不同的元素。
 
@@ -10,7 +11,7 @@
  * @Author: ysh
  * @Date: 2022-07-06 05:50:59
  * @LastEditors: ysh
- * @LastEditTime: 2022-07-06 08:06:54
+ * @LastEditTime: 2022-07-07 15:09:24
  */
 
 function findKthLargest(nums, k) {

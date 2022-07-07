@@ -1,6 +1,7 @@
 /*
  * @Description: 
 
+  77. 组合
   给定两个整数 n 和 k，返回范围 [1, n] 中所有可能的 k 个数的组合。
   输入：n = 4, k = 2
   输出：
@@ -23,7 +24,7 @@ function combine(n: number, k: number): number[][] {
   const res: number[][] = [];
   backtracking();
   return res;
-  
+
   function backtracking(start: number = 1, tempArr: number[] = []) {
     if (tempArr.length === k) {
       res.push([...tempArr]);
